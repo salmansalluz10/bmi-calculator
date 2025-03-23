@@ -60,12 +60,12 @@ function App() {
           />
         </Form.Group>
 
-        <div className="mt-4">
-          <Button variant="primary" type="submit" className="me-2">
+        <div className="d-flex flex-column me-5 mt-3">
+          <Button variant="primary" type="submit" className="me-5 fw-bold">
             Calculate BMI
           </Button>
 
-          <Button variant="secondary" type="button" onClick={clearForm} className='d-block mt-3' style={{marginLeft:'125px',backgroundColor:'red'}}>
+          <Button variant="secondary" type="button" onClick={clearForm} className='d-block mt-3 me-5 fw-bold' style={{marginLeft:'100px',backgroundColor:'red'}}>
             Clear
           </Button>
         </div>
